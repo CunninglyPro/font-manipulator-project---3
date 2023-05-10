@@ -1,0 +1,39 @@
+body {
+    background: url('background.jpg');
+}
+
+.heading {
+    width: 100%;
+    background-color: orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+#font_size_of_text {
+    font-size: 18px;
+}
+
+canvas {
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px black;
+    border: 5px ridge white;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    font-weight: bold;
+    cursor: default;
+}
